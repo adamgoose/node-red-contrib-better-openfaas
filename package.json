@@ -1,0 +1,23 @@
+{
+  "name": "red-contrib-better-openfaas",
+  "version": "1.0.0",
+  "description": "A NodeRED Node for invoking OpenFaaS Functions",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node-red",
+    "openfaas"
+  ],
+  "node-red": {
+    "nodes": {
+      "invoke-openfaas": "openfaas.js"
+    }
+  },
+  "author": "Adam Engebretson <adam@adeohs.com>",
+  "repository": "github:adamgoose/node-red-contrib-better-openfaas",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
