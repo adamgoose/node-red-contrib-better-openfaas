@@ -1,5 +1,5 @@
 {
-  "name": "red-contrib-better-openfaas",
+  "name": "node-red-contrib-better-openfaas",
   "version": "1.0.0",
   "description": "A NodeRED Node for invoking OpenFaaS Functions",
   "scripts": {
