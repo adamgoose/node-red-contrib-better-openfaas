@@ -24,9 +24,9 @@ module.exports = function (RED) {
         .then(r => {
           msg.requestPayload = msg.payload
           msg.payload = r.data
-          this.send(msg)
+          this.send([msg, null])
         }, e => {
-          this.error('unable to invoke func: ' + e.response.data)
+          this.send([null, msg])
         })
     })
 
